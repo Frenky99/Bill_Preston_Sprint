@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #3f3140;
+    font-family: "Comic Sans MS";
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1170px;
+    
+}
+.heading {
+    padding-bottom: 20px;
+}
+
+
+/*bill*/
+
+.bill {
+    background-color: #3f3140;
+    color: #e1eaf3;
+}
+.wrap-bill-text {
+    padding-right: 610px;
+    line-height: 40px;
+}
+
+.bill-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+.bill-img {
+    border-radius: 100px;
+    width: 180px;
+}
+
+.bill-title {
+    font-size: 35px;
+}
+
+/*objective*/
+
+.objective {
+    padding-top: 50px;
+}
+
+.objective-text-lorem {
+    padding-bottom: 20px
+}
+
+/*experience*/
+
+.experience {
+    padding-top: 50px;
+}
+
+.wrap-year {
+    display: flex;
+    justify-content: space-between
+}
+
+.web-title-small {
+    padding-right: 800px;
+    
+}
+
+.webref-title-small{
+    padding-right: 786px
+    
+}
+
+.york-title-small {
+    padding-right: 776px;
+    
+}
+
+.experience-text {
+    padding: 20px 0px 20px 246px;
+    
+}
+
+/*skills*/
+
+.skills {
+    padding-top: 30px;
+}
+
+/*language*/
+
+.language {
+   padding: 50px 0px;
+}
+
+.language-list {
+    list-style-type: none;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: #e4d7cf;
+}
+
+.wrap-language {
+    display: flex;
+    align-items: center;
+}
+
+.language-item {
+    padding-left: 10px;
+}
+
+/*form*/
+
+.form {
+    background-color: #e4d7cf;
+}
+
+.form-title {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 250px;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.form-name, .form-email {
+    border: none;
+    border-bottom: 1px solid #867a86;
+    background-color: #e4d7cf;
+    outline: none;
+    width: 300px
+}
+
+.form-message {
+    border: none;
+    border-bottom: 1px solid #867a86;
+    background-color: #e4d7cf;
+    resize: none;
+    width: 634px;
+    outline: none;
+    height: 17px;
+}
+
+.message-send {
+    padding: 10px 0px 30px 269px;
+}
+
+.wrap-btn {
+    padding: 0px 0px 50px 510px;
+}
+.btn {
+    width: 150px;
+    height: 33px;
+    border: none;
+    background-color: #3f3140;
+    color: white;
+    font-size: 12px;
+}
+
+/*footer*/
+
+.contacts {
+    background-color: #3f3140;
+    color: white;
+}
+
+.footer-title {
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.contacts-text {
+    color: #867a86;
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    font-size: 12px;
+}
+
+/*
+.wrap-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}*/
